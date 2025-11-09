@@ -61,7 +61,12 @@ options:
 
 ### 3. Statistics of interfaces  
 ![Scheme of interface](interface_illustration.png)
-<center> **Figure 1:** Illustration of interface analysis. We will check any interface pairs by scanning clustered interfaces. In this example, there are three interfaces, which are 1, 2, and 3. We will examine for each interface, whether IDR is involved. If yes, whether it's coil binding, coil-to-order transition binding, or CF binding</center>  
+
+<p align="center">
+  <b>Figure 1.</b> Scheme of interface analysis. We check interface pairs by scanning clustered interfaces. 
+  In this example, there are three interfaces (1, 2, and 3). For each interface, we examine whether an IDR 
+  is involved, and if so, whether it represents coil binding, coil-to-order transition binding, or CF binding.
+</p>
 
 - `pairs_orderWithorder.py`
     - inputs  
