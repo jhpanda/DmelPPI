@@ -69,6 +69,7 @@ options:
     - inputs  
         - blastp output  
         - Different types of IDR regions: `fbpp_longidrs_byCoil.csv, fbpp_longidrs_byPred.csv, fbpp_longidrs_byPred_noCF.csv`  
+        - `pae_summary.csv` - the output from `extract_pae.py`  
         - Secondary structures in predicted hetero-dimer models  
         - Secondary structures in predicted monomer models  
     - output: `pairs_highconf_with_idrs.csv`  
