@@ -9,9 +9,9 @@
         `ss`   - Secondary structure predicted by DSSP  
         `disorder-25` - Intrinsic structural disorder (ISD) predicted by AlphaFold-Disorder  
 
-2. `fbpp_ss.csv` - The secondary structure of monomers (from AF database)  
+2. `fbpp_ss.csv, complex_ss.csv` - The secondary structure of monomers (from AF database) and predicted complex models  
 
-3. `complex_ss.csv` - The secondary structure of predicted complex models  
+3. `fbpp2fbgnlist.txt,fbpp2symbol.txt,fbpp2uniprot.csv` - Name mapping between FBpp, FBgn, Gene name, and UniProt accession numbers   
 
 4. Predicted models (pdb format). Available at figshare  
 
