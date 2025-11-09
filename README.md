@@ -19,10 +19,10 @@
 
 ## Scripts  
 ### 1. extract different types of IDRs from monomers  
-`extract_idr_byCoil.py`  
-- input: `fbpp_out_pred.tsv`  
-- output: `fbpp_longidrs_byCoil.csv`  
-    - The output contains coiled IDR regions (ISD>0.5, pLDDT<0.7, no defined secondary structures) in monomer proteins  
+- `extract_idr_byCoil.py`  
+    - input: `fbpp_out_pred.tsv`  
+    - output: `fbpp_longidrs_byCoil.csv`  
+        - The output contains coiled IDR regions (ISD>0.5, pLDDT<0.7, no defined secondary structures) in monomer proteins  
 
 `extract_idr_byPred.py`  
 - input: `fbpp_out_pred.tsv`  
