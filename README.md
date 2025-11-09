@@ -82,4 +82,7 @@ options:
             - `idr_type1,idr_type2` - Short IDR (5-29 residues) or Long IDR (>= 30 residues)  
             - `interaction_type` - Type of IDR binding  
 
+## Reference
+Peng, Junhui and Li Zhao. “A predicted structural interactome reveals binding interference from intrinsically disordered regions.” bioRxiv (2025): doi.org/10.1101/2025.08.15.670535.  
+
 
