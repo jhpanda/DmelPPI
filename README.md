@@ -1,14 +1,13 @@
 # DmelPPI
 
 ## Required inputs  
-1. `fbpp_out_pred.tsv`  
-    Output of AlphaFold-Disorder  
-    These columns are used  
-    `name` - the FlyBase identifiers of proteins  
-    `pos`  - residue index  
-    `lddt` - Monomer pLDDT by AlphaFold2  
-    `ss`   - Secondary structure predicted by DSSP  
-    `disorder-25` - Intrinsic structural disorder (ISD) predicted by AlphaFold-Disorder  
+1. `fbpp_out_pred.tsv` - the output of AlphaFold-Disorder  
+    - These columns are used  
+        `name` - the FlyBase identifiers of proteins  
+        `pos`  - residue index  
+        `lddt` - Monomer pLDDT by AlphaFold2  
+        `ss`   - Secondary structure predicted by DSSP  
+        `disorder-25` - Intrinsic structural disorder (ISD) predicted by AlphaFold-Disorder  
 
 2. Predicted models (pdb format). Available at figshare  
 
