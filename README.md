@@ -60,7 +60,7 @@ options:
 - `best_models.py` - extract the best predicted models from five random models by AF2 multimer
 
 ### 3. Statistics of interfaces  
-![Scheme of interface]((interface_illustration.png))
+![Scheme of interface](interface_illustration.png)
 - `pairs_orderWithorder.py`
     - inputs  
         - blastp output  
