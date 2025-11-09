@@ -53,6 +53,8 @@ options:
     - output: `pae_summary.csv`  
         - The output contains following columns: `pair,iptm,pae,pdockq,interfaceA,interfaceB,plddtA,plddtB,interface_pairs,ppi`  
 
+`best_models.py`  
+- extract the best predicted models from five random models by AF2 multimer
 
 ### 3. Statistics of interfaces  
 `pairs_orderWithorder.py`
