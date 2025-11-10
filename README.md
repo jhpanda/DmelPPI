@@ -57,7 +57,7 @@ options:
     - output: `pae_summary.csv`  
         - The output contains following columns: `pair,iptm,pae,pdockq,interfaceA,interfaceB,plddtA,plddtB,interface_pairs,ppi`  
 
-- `best_models.py` - extract the best predicted models from five random models by AF2 multimer
+- `best_models.py` - extract the best predicted models from five random models by AF2 multimer  
 
 ### 3. Statistics of interfaces  
 <p align="center">
@@ -88,7 +88,12 @@ options:
             - `pvalue_coil_if1,pvalue_coil_if2` - The p-value whether secondary structure contents increase significantly from monomer state to complex state. This is to check whether there is coil-to-order transition binding  
             - `idr_region1,idr_region2,order_region1,order_region2` - The IDR regions and ordered regions in monomer state  
             - `idr_type1,idr_type2` - Short IDR (5-29 residues) or Long IDR (>= 30 residues)  
-            - `interaction_type` - Type of IDR binding   
+            - `interaction_type` - Type of IDR binding  
+
+### 4. Network visualization
+- `network_visualization.py` - visualize network and MCL analysis
+    - input: `pae_summary.csv`
+    - output: network layout and MCL clusters
 
 ## Reference
 Peng, Junhui and Li Zhao. “A predicted structural interactome reveals binding interference from intrinsically disordered regions.” bioRxiv (2025): doi.org/10.1101/2025.08.15.670535.  
