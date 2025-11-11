@@ -13,7 +13,7 @@
 
 3. `fbpp2fbgnlist.txt,fbpp2symbol.txt,fbpp2uniprot.csv` - Name mapping between FBpp, FBgn, Gene name, and UniProt accession numbers   
 
-4. Predicted models (pdb format) and metrics (json and text format). Available at figshare (https://figshare.com/s/8c77175b5fe9d4fef6a9, 10.6084/m9.figshare.30582146)
+4. Predicted models (pdb format) and metrics (iptm and PAE metric in json and text format). Available at figshare (https://figshare.com/s/8c77175b5fe9d4fef6a9, 10.6084/m9.figshare.30582146)
 
 ## Scripts  
 ### 1. extract different types of IDRs from monomers  
