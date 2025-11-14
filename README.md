@@ -1,7 +1,8 @@
 # DmelPPI: A predicted structural interactome reveals binding interference from intrinsically disordered regions  
 
 ## Required inputs  
-1. `fbpp_out_pred.tsv` - the output of AlphaFold-Disorder  
+1. `mmcif.txt` - the structural database used in AF2 multimer prediction in this study. This helps the reproducity of the predictions.  
+2. `fbpp_out_pred.tsv` - the output of AlphaFold-Disorder  
     - These columns are used  
         `name` - the FlyBase identifiers of proteins  
         `pos`  - residue index  
@@ -9,11 +10,11 @@
         `ss`   - Secondary structure predicted by DSSP  
         `disorder-25` - Intrinsic structural disorder (ISD) predicted by AlphaFold-Disorder  
 
-2. `fbpp_ss.csv, complex_ss.csv` - The secondary structure of monomers (from AF database) and predicted complex models  
+3. `fbpp_ss.csv, complex_ss.csv` - The secondary structure of monomers (from AF database) and predicted complex models  
 
-3. `fbpp2fbgnlist.txt,fbpp2symbol.txt,fbpp2uniprot.csv` - Name mapping between FBpp, FBgn, Gene name, and UniProt accession numbers   
+4. `fbpp2fbgnlist.txt,fbpp2symbol.txt,fbpp2uniprot.csv` - Name mapping between FBpp, FBgn, Gene name, and UniProt accession numbers   
 
-4. Predicted models (pdb format) and metrics (iptm and PAE metric in json and text format). Available at figshare (https://figshare.com/s/8c77175b5fe9d4fef6a9, 10.6084/m9.figshare.30582146)
+5. Predicted models (pdb format) and metrics (iptm and PAE metric in json and text format). Available at figshare (https://figshare.com/s/8c77175b5fe9d4fef6a9, 10.6084/m9.figshare.30582146)
 
 ## Scripts  
 ### 1. extract different types of IDRs from monomers  
